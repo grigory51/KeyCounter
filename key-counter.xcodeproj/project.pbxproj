@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085CA51319FAC2730083D081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA51219FAC2730083D081 /* AppDelegate.m */; };
+		085CA51519FAC2730083D081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA51419FAC2730083D081 /* main.m */; };
+		085CA51719FAC2730083D081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085CA51619FAC2730083D081 /* Images.xcassets */; };
+		085CA51A19FAC2730083D081 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085CA51819FAC2730083D081 /* MainMenu.xib */; };
+		085CA53419FAC2EC0083D081 /* KeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA53319FAC2EC0083D081 /* KeyHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		085CA50C19FAC2730083D081 /* key-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "key-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		085CA51019FAC2730083D081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085CA51119FAC2730083D081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		085CA51219FAC2730083D081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		085CA51419FAC2730083D081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		085CA51619FAC2730083D081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		085CA51919FAC2730083D081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		085CA53219FAC2EC0083D081 /* KeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyHandler.h; sourceTree = "<group>"; };
+		085CA53319FAC2EC0083D081 /* KeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085CA50919FAC2730083D081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085CA50319FAC2730083D081 = {
+			isa = PBXGroup;
+			children = (
+				085CA50E19FAC2730083D081 /* key-counter */,
+				085CA50D19FAC2730083D081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		085CA50D19FAC2730083D081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				085CA50C19FAC2730083D081 /* key-counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		085CA50E19FAC2730083D081 /* key-counter */ = {
+			isa = PBXGroup;
+			children = (
+				085CA51119FAC2730083D081 /* AppDelegate.h */,
+				085CA51219FAC2730083D081 /* AppDelegate.m */,
+				085CA53219FAC2EC0083D081 /* KeyHandler.h */,
+				085CA53319FAC2EC0083D081 /* KeyHandler.m */,
+				085CA51619FAC2730083D081 /* Images.xcassets */,
+				085CA51819FAC2730083D081 /* MainMenu.xib */,
+				085CA50F19FAC2730083D081 /* Supporting Files */,
+			);
+			path = "key-counter";
+			sourceTree = "<group>";
+		};
+		085CA50F19FAC2730083D081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				085CA51019FAC2730083D081 /* Info.plist */,
+				085CA51419FAC2730083D081 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		085CA50B19FAC2730083D081 /* key-counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085CA52919FAC2740083D081 /* Build configuration list for PBXNativeTarget "key-counter" */;
+			buildPhases = (
+				085CA50819FAC2730083D081 /* Sources */,
+				085CA50919FAC2730083D081 /* Frameworks */,
+				085CA50A19FAC2730083D081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "key-counter";
+			productName = "key-counter";
+			productReference = 085CA50C19FAC2730083D081 /* key-counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		085CA50419FAC2730083D081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "KTS Studio ltd.";
+				TargetAttributes = {
+					085CA50B19FAC2730083D081 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 085CA50719FAC2730083D081 /* Build configuration list for PBXProject "key-counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 085CA50319FAC2730083D081;
+			productRefGroup = 085CA50D19FAC2730083D081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				085CA50B19FAC2730083D081 /* key-counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		085CA50A19FAC2730083D081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085CA51719FAC2730083D081 /* Images.xcassets in Resources */,
+				085CA51A19FAC2730083D081 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085CA50819FAC2730083D081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085CA51519FAC2730083D081 /* main.m in Sources */,
+				085CA51319FAC2730083D081 /* AppDelegate.m in Sources */,
+				085CA53419FAC2EC0083D081 /* KeyHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		085CA51819FAC2730083D081 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				085CA51919FAC2730083D081 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		085CA52719FAC2740083D081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		085CA52819FAC2740083D081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		085CA52A19FAC2740083D081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "key-counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		085CA52B19FAC2740083D081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "key-counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085CA50719FAC2730083D081 /* Build configuration list for PBXProject "key-counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085CA52719FAC2740083D081 /* Debug */,
+				085CA52819FAC2740083D081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085CA52919FAC2740083D081 /* Build configuration list for PBXNativeTarget "key-counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085CA52A19FAC2740083D081 /* Debug */,
+				085CA52B19FAC2740083D081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 085CA50419FAC2730083D081 /* Project object */;
+}
