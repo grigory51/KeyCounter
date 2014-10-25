@@ -10,7 +10,14 @@
 #import "KeyHandler.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
-    KeyHandler* keyHandler;
+    IBOutlet NSMenu* _menu;
+    NSStatusItem* _statusItem;
+    KeyHandler* _keyHandler;
 }
+
+- (void)initKeyHandler;
+
+- (IBAction)exitAction:(id)sender;
+
 @end
 
