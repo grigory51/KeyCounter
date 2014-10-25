@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0819640719FACDF8004CCAF9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0819640619FACDF8004CCAF9 /* MainMenu.xib */; };
 		085CA51319FAC2730083D081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA51219FAC2730083D081 /* AppDelegate.m */; };
 		085CA51519FAC2730083D081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA51419FAC2730083D081 /* main.m */; };
 		085CA51719FAC2730083D081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085CA51619FAC2730083D081 /* Images.xcassets */; };
-		085CA51A19FAC2730083D081 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085CA51819FAC2730083D081 /* MainMenu.xib */; };
 		085CA53419FAC2EC0083D081 /* KeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA53319FAC2EC0083D081 /* KeyHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		085CA50C19FAC2730083D081 /* key-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "key-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		085CA51019FAC2730083D081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0819640619FACDF8004CCAF9 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../MainMenu.xib; sourceTree = "<group>"; };
+		085CA50C19FAC2730083D081 /* KeyCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		085CA51019FAC2730083D081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		085CA51119FAC2730083D081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		085CA51219FAC2730083D081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		085CA51419FAC2730083D081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		085CA51619FAC2730083D081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		085CA51919FAC2730083D081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		085CA53219FAC2EC0083D081 /* KeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyHandler.h; sourceTree = "<group>"; };
 		085CA53319FAC2EC0083D081 /* KeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,7 +40,7 @@
 		085CA50319FAC2730083D081 = {
 			isa = PBXGroup;
 			children = (
-				085CA50E19FAC2730083D081 /* key-counter */,
+				085CA50E19FAC2730083D081 /* KeyCounter */,
 				085CA50D19FAC2730083D081 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +48,23 @@
 		085CA50D19FAC2730083D081 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				085CA50C19FAC2730083D081 /* key-counter.app */,
+				085CA50C19FAC2730083D081 /* KeyCounter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		085CA50E19FAC2730083D081 /* key-counter */ = {
+		085CA50E19FAC2730083D081 /* KeyCounter */ = {
 			isa = PBXGroup;
 			children = (
+				0819640619FACDF8004CCAF9 /* MainMenu.xib */,
 				085CA51119FAC2730083D081 /* AppDelegate.h */,
 				085CA51219FAC2730083D081 /* AppDelegate.m */,
 				085CA53219FAC2EC0083D081 /* KeyHandler.h */,
 				085CA53319FAC2EC0083D081 /* KeyHandler.m */,
 				085CA51619FAC2730083D081 /* Images.xcassets */,
-				085CA51819FAC2730083D081 /* MainMenu.xib */,
 				085CA50F19FAC2730083D081 /* Supporting Files */,
 			);
-			path = "key-counter";
+			path = KeyCounter;
 			sourceTree = "<group>";
 		};
 		085CA50F19FAC2730083D081 /* Supporting Files */ = {
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		085CA50B19FAC2730083D081 /* key-counter */ = {
+		085CA50B19FAC2730083D081 /* KeyCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 085CA52919FAC2740083D081 /* Build configuration list for PBXNativeTarget "key-counter" */;
+			buildConfigurationList = 085CA52919FAC2740083D081 /* Build configuration list for PBXNativeTarget "KeyCounter" */;
 			buildPhases = (
 				085CA50819FAC2730083D081 /* Sources */,
 				085CA50919FAC2730083D081 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "key-counter";
+			name = KeyCounter;
 			productName = "key-counter";
-			productReference = 085CA50C19FAC2730083D081 /* key-counter.app */;
+			productReference = 085CA50C19FAC2730083D081 /* KeyCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				085CA50B19FAC2730083D081 /* key-counter */,
+				085CA50B19FAC2730083D081 /* KeyCounter */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				085CA51719FAC2730083D081 /* Images.xcassets in Resources */,
-				085CA51A19FAC2730083D081 /* MainMenu.xib in Resources */,
+				0819640719FACDF8004CCAF9 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,17 +152,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		085CA51819FAC2730083D081 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				085CA51919FAC2730083D081 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		085CA52719FAC2740083D081 /* Debug */ = {
@@ -246,7 +235,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "key-counter/Info.plist";
+				INFOPLIST_FILE = KeyCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -257,7 +246,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "key-counter/Info.plist";
+				INFOPLIST_FILE = KeyCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -275,13 +264,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		085CA52919FAC2740083D081 /* Build configuration list for PBXNativeTarget "key-counter" */ = {
+		085CA52919FAC2740083D081 /* Build configuration list for PBXNativeTarget "KeyCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				085CA52A19FAC2740083D081 /* Debug */,
 				085CA52B19FAC2740083D081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
