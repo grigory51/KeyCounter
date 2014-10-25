@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0819640719FACDF8004CCAF9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0819640619FACDF8004CCAF9 /* MainMenu.xib */; };
 		085CA51319FAC2730083D081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA51219FAC2730083D081 /* AppDelegate.m */; };
 		085CA51519FAC2730083D081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA51419FAC2730083D081 /* main.m */; };
 		085CA51719FAC2730083D081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085CA51619FAC2730083D081 /* Images.xcassets */; };
 		085CA53419FAC2EC0083D081 /* KeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CA53319FAC2EC0083D081 /* KeyHandler.m */; };
+		089E745219FB35730065DB4B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 089E745119FB35730065DB4B /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0819640619FACDF8004CCAF9 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../MainMenu.xib; sourceTree = "<group>"; };
 		085CA50C19FAC2730083D081 /* KeyCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		085CA51019FAC2730083D081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		085CA51119FAC2730083D081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,6 +23,7 @@
 		085CA51619FAC2730083D081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		085CA53219FAC2EC0083D081 /* KeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyHandler.h; sourceTree = "<group>"; };
 		085CA53319FAC2EC0083D081 /* KeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyHandler.m; sourceTree = "<group>"; };
+		089E745119FB35730065DB4B /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		085CA50E19FAC2730083D081 /* KeyCounter */ = {
 			isa = PBXGroup;
 			children = (
-				0819640619FACDF8004CCAF9 /* MainMenu.xib */,
+				089E745119FB35730065DB4B /* MainMenu.xib */,
 				085CA51119FAC2730083D081 /* AppDelegate.h */,
 				085CA51219FAC2730083D081 /* AppDelegate.m */,
 				085CA53219FAC2EC0083D081 /* KeyHandler.h */,
@@ -134,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				085CA51719FAC2730083D081 /* Images.xcassets in Resources */,
-				0819640719FACDF8004CCAF9 /* MainMenu.xib in Resources */,
+				089E745219FB35730065DB4B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
